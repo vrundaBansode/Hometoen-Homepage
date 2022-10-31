@@ -1,0 +1,155 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Sorts Mill Goudy', serif;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.content {
+    width: 630px;
+}
+
+.hero {
+    background-image: url("images/pune.jpg");
+    background-size: cover;
+    color : wheat;
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+h1 {
+    background-color: rgba(96, 75, 90, 0.5);
+    padding: 5px 10px 0px;
+    border-radius: 10px;
+    color : wheat;
+    font-size: 35px;
+}
+
+a {
+    color : wheat;
+}
+
+.disc {
+    font-size: 23px;
+    width: 380px;
+    background-color: rgba(96, 75, 90, 0.65);
+    padding: 5px 0;
+    border-radius: 10px;
+    color : wheat;
+}
+
+.activity {
+    padding: 1px ;
+    background-color: #d6c7b2;
+    padding-bottom: 15px; 
+}
+
+.acts {
+    display: flex;
+    justify-content: space-around;
+    color: #53464b;
+}
+
+.act {
+    width : 120px;
+    font-size: 13px;
+    padding : 10px 4px;
+}
+
+.act:hover {
+    cursor: pointer;
+    background-color: rgba(96, 75, 90, 0.2);
+    border-radius: 25px;
+}
+
+.act > h4 {
+    font-size: 15px;
+    font-weight : 800;
+    margin-bottom : 0;
+}
+
+.footer {
+    height: 370px;
+    display: flex;
+}
+
+.card {
+    width : 400px;
+    display: flex;
+    margin : auto;
+    background-color: #403b35;
+    color: #d6c7b2;
+    border-bottom: solid 9px #cfae85;
+    border-radius: 10px;
+    padding: 10px 0 10px 10px;
+    box-shadow: 10px 10px 15px gray;
+}
+
+#guide {
+    padding : 15px;
+    width : 135px;
+    border-radius: 40px;
+}
+
+.card-text {
+    width : 200px;
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
